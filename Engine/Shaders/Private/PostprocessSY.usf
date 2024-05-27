@@ -1,4 +1,4 @@
-﻿#include "Common.ush"
+#include "Common.ush"
 #include "ScreenPass.ush"
 
 
@@ -29,8 +29,8 @@ void MainPS(
 	OutColor=	InputTexture01.Load(int3(SvPosition.xy, 0));
 	if (SvPosition.x < 100 && SvPosition.y < 100)
 	{
-		//OutColor = float4(1.0,0.0,0.0,1.0);
-		OutColor=OutColor;
+		OutColor = float4(1.0,0.0,0.0,1.0);
+		//OutColor=OutColor;
 	}
 
 

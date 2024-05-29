@@ -191,7 +191,11 @@
 /Engine/Binaries/ThirdParty/Mono/Linux/bin/mono-boehm
 /Engine/Binaries/ThirdParty/Mono/Linux/bin/mono-sgen
 
-
+# Add exceptions for GitDependencies
+!/Engine/Binaries/DotNET/GitDependencies/
+!/Engine/Binaries/DotNET/GitDependencies.exe
+!/Engine/Binaries/DotNET/GitDependencies.dll
+!/Engine/Binaries/DotNET/GitDependencies.runtimeconfig.json
 
 # Add Horde dockerfiles
 !/Engine/Source/Programs/Horde/**/Dockerfile
